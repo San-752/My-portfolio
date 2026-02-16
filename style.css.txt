@@ -1,0 +1,123 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(to right, #e3f2fd, #ffffff);
+}
+
+/* Header */
+header {
+    background: #222;
+    color: white;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    background: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #00adb5;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+}
+
+/* Image */
+#about img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* Skills */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    background: #00adb5;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Projects */
+.project-card {
+    background: white;
+    width: 60%;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.project-card h3 {
+    color: #00adb5;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+    
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #00adb5;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #007b80;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    padding: 15px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .project-card {
+        width: 90%;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+
